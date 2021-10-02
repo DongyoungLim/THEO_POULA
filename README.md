@@ -27,8 +27,8 @@ python main.py --lr 0.1 --eps 0.1 --model densenet --optim theopoula --seed 111 
 ### language modeling
 ```train
 python main.py --nlayers 1 --lr 10 --eps 50 --beta_theopoula 1e10  --epochs 750 --optimizer='theopoula' --clip 0.25 --seed 141 --dropouti 0.4 --dropouth 0.25 --batch_size 20 --data='data/penn/' --save 'ptb'
-!python main.py --nlayers 2 --lr 30 --eps 50 --beta_theopoula 1e10  --epochs 750 --optimizer='theopoula' --clip 0.25 --seed 141 --dropouti 0.4 --dropouth 0.25 --batch_size 20 --data='data/penn/' --save 'ptb'
-!python main.py --nlayers 3 --lr 30 --eps 100 --beta_theopoula 1e10  --epochs 750 --optimizer='theopoula' --clip 0.25 --seed 141 --dropouti 0.4 --dropouth 0.25 --batch_size 20 --data='data/penn/' --save 'ptb'
+python main.py --nlayers 2 --lr 30 --eps 50 --beta_theopoula 1e10  --epochs 750 --optimizer='theopoula' --clip 0.25 --seed 141 --dropouti 0.4 --dropouth 0.25 --batch_size 20 --data='data/penn/' --save 'ptb'
+python main.py --nlayers 3 --lr 30 --eps 100 --beta_theopoula 1e10  --epochs 750 --optimizer='theopoula' --clip 0.25 --seed 141 --dropouti 0.4 --dropouth 0.25 --batch_size 20 --data='data/penn/' --save 'ptb'
 ```
 
 ## Evaluation and Plot
