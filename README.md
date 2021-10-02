@@ -33,7 +33,7 @@ python main.py --nlayers 3 --lr 30 --eps 100 --beta_theopoula 1e10  --epochs 750
 
 ## Evaluation and Plot
 
-To evaluate and visulize the results, please use "visulization.ipynb". Pre-trained log files can be found in the "log" folder. 
+To evaluate and visulaize the results, please use "visulization.ipynb". Pre-trained log files can be found in the "log" folder. 
 
 
 
