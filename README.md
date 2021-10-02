@@ -11,7 +11,9 @@ neural networks".
 - Pytorch 1.8.0 + cuda
 - scikit-learn
 
-## Training
+## Experiments
+
+For image classification, this repo replicates the official implementation of AdaBelief: https://github.com/juntang-zhuang/Adabelief-Optimizer. For language modeling, we replicate the official implementation of AWD-LSTM: https://github.com/salesforce/awd-lstm-lm. The models and settings are example same. 
 
 To train the models in the paper, run the following commands:
 
